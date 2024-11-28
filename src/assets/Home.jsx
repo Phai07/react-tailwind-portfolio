@@ -4,11 +4,14 @@ import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import Projects from "../components/Projects"
 import Skills from "../components/Skills"
+import Experiences from '../components/Experiences'
+
 
 function Home() {
   return (
     <>
-     <Header/> 
+     <Header/>
+     <Experiences/> 
      <Skills/> 
      <Projects/>
      <Contact/>

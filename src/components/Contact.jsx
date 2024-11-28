@@ -1,15 +1,15 @@
 import React from "react";
-import img from "../assets/images/contact-img.svg";
+
 
 function Contact() {
   return (
     <>
-      <div className="contact bg-[linear-gradient(90deg,#b004b0,#38097a);] w-full">
+      <div id= "Connect" className="contact bg-[#171717] w-full">
         <div className="wrapper flex justify-center  py-16 gap-52 lg:py-12">
           <div className="imgbox lg:hidden">
-            <img className="w-[550px] h-full" src={img} alt="" />
+            {/* <img className="w-[550px] h-full" src="" alt="" /> */}
           </div>
-          <div className="content-box">
+          {/* <div className="content-box">
             <h1 className="text-white font-bold text-4xl">Get In Touch</h1>
             <form action="" className="flex flex-col ">
             <div className="flex gap-4 py-2  ">
@@ -44,11 +44,10 @@ function Contact() {
             ></textarea>
                 <button className="bg-white border-black border-[1] py-[16px] rounded-lg px-8 my-8 w-32 font-bold ">Send</button>
                 </form>
-          </div>
+          </div> */}
 
 
         </div>
-
       </div>
     </>
   );

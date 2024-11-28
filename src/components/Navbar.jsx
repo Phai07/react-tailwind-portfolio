@@ -26,16 +26,19 @@ function Navbar() {
   return (
     <>
       <div className="navbarcon flex justify-between items-center px-20 py-6 bg-transparent z-40 text-white lg:px-6 fixed w-full">
-        <h1 className="text-4xl  font-bold ">Reayhs</h1>
+        <h1 className="text-4xl  font-bold "></h1>
 
         <nav
           className={` flex justify-center items-center gap-x-10 ${
             durum && "lg:hidden"
           } lg:fixed lg:top-0 -z-20  lg:flex-col lg:w-full lg:bg-[#171717]  lg:h-[450px] lg:left-0 h-full lg:items-start  lg:pl-6  cursor-pointer lg:pt-20`}
         >
-          <ul className=" flex gap-10 text-3xl mr-4 lg:flex-col lg:gap-6 ">
+          <ul className=" flex gap-10 text-xl mr-4 lg:flex-col lg:gap-6 ">
             <li className="bla">
-              <AnchorLink href="#home">Home</AnchorLink>
+              <AnchorLink href="#about">About</AnchorLink>
+            </li>
+            <li className="bla">
+              <AnchorLink href="#experiences">Experiences</AnchorLink>
             </li>
             <li className="bla">
               <AnchorLink href="#skills">Skills</AnchorLink>
@@ -43,28 +46,31 @@ function Navbar() {
             <li className="bla">
               <AnchorLink href="#projects">Projects</AnchorLink>
             </li>
+            <li className="bla">
+              <AnchorLink href="#Certificate">Certificate</AnchorLink>
+            </li>
+            {/* <li className="bla">
+              <AnchorLink href="#Connect">Connect</AnchorLink>
+            </li> */}
           </ul>
 
           <div className="icon text-lg flex gap-4  lg:gap-8 lg:my-10">
-            <a href="https://twitter.com/reayhs" target="_blank">
-              <i className="fa-brands fa-twitter border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
+            <a href="https://www.linkedin.com/in/nattawut-wanphen-8690ab21a/" target="_blank">
+              <i className="fa-brands fa-linkedin border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-sky-500"></i>
             </a>
 
-            <a href="https://www.instagram.com/iburakz/" target="_blank">
-              <i className="fa-brands fa-instagram border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a>
             <a
-              href="https://github.com/Reayhs/react-tailwind-portfolio"
+              href="https://github.com/Phai07"
               target="_blank"
             >
               <i className="fa-brands fa-github border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
           </div>
-          <div className="btn">
+          {/* <div  className="btn">
             <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
               Let's Connect
             </button>
-          </div>
+          </div> */}
         </nav>
         <i
           onClick={(e) => setDurum(!durum)}

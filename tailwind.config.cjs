@@ -9,7 +9,7 @@ module.exports = {
       },
     extend: {
       backgroundImage: {
-        'back': "url('./src/assets/images/bg.jpg')",
+        'back': "url('')",
         'skills': "url('./src/assets/images/banner-bg.png')"
       }
     },
