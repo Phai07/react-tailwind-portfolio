@@ -11,8 +11,8 @@ function Home() {
   return (
     <>
      <Header/>
-     <Experiences/> 
      <Skills/> 
+     {/* <Experiences/>  */}
      <Projects/>
      <Contact/>
      <Footer/>

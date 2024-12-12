@@ -38,17 +38,16 @@ function Navbar() {
               <AnchorLink href="#about">About</AnchorLink>
             </li>
             <li className="bla">
-              <AnchorLink href="#experiences">Experiences</AnchorLink>
-            </li>
-            <li className="bla">
+              
               <AnchorLink href="#skills">Skills</AnchorLink>
             </li>
+            {/* <li className="bla">
+            <AnchorLink href="#experiences">Experiences</AnchorLink>
+            </li> */}
             <li className="bla">
               <AnchorLink href="#projects">Projects</AnchorLink>
             </li>
-            <li className="bla">
-              <AnchorLink href="#Certificate">Certificate</AnchorLink>
-            </li>
+           
             {/* <li className="bla">
               <AnchorLink href="#Connect">Connect</AnchorLink>
             </li> */}

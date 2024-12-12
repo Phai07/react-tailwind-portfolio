@@ -39,6 +39,8 @@ swiper {
   }
 
 
+
+
   .banner-astronout {
     position: absolute;
     animation: astronout 2s infinite alternate linear;
@@ -85,3 +87,4 @@ swiper {
 .bla:hover{
   transform: scale(1.3);
 }
+

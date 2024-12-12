@@ -5,17 +5,18 @@ import bg from "../assets/images/bg.jpg";
 import Navbar from "./Navbar";
 import "../styles.css";
 import { TypeAnimation } from "react-type-animation";
-import Cv from "../assets/images/Cv 17_Phai.pdf";
+
+const Cv = "https://drive.google.com/file/d/1qRu3JQhBiKJDZnQVnXSMrHbctTqgpNUz/view?usp=drive_link";
 
 function Header() {
   return (
     <>
       <div
         id="about"
-        className="bg-slate-800 bg-center bg-cover bg-no-repeat h-screen flex flex-col  "
+        className=" bg-center bg-cover bg-no-repeat h-screen flex flex-col bottom-auto "
       >
         <Navbar />
-        <div className="wrapper flex justify-between items-center h-screen w-full px-10 lg:justify-center lg:px-6">
+        <div className="wrapper flex  justify-between items-center h-screen w-full px-44 lg:justify-center lg:px-6">
           <div>
             <div className="btn py-3 text-white text-2xl font-bold">
               <TypeAnimation
@@ -41,22 +42,24 @@ function Header() {
               individual with a passion for continuous learning and building
               effective software solutions. Seeking a Software Developer role to
               deliver high-quality applications and contribute to innovative
-              projects.
+              projects
             </p>
-            <button
-              className="  shadow-lg bg-[#171717] rounded-xl text-white text-2xl hover:mix-blend-screen  "
-              onClick={<Cv />}
+            <a
+              className="shadow-lg bg-[#171717] rounded-md text-white text-2xl hover:mix-blend-screen py-2 px-4 inline-block"
+              href={Cv}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              DOWNLOAD CV{" "}
-              <i className="fa-solid fa-arrow-right text-lg  p-[2px] "></i>{" "}
-            </button>
+              DOWNLOAD CV
+              <i className="fa-solid fa-arrow-right text-lg p-[2px] ml-2"></i>
+            </a>
           </div>
           {/* <div className="image banner-astronout lg:hidden absolute w-[300px] flex ">
             <img className="w-96 ast-img" src={logo1} alt="" />
-          </div> */}
-          {/* <div className=" overflow-hidden rounded-3xl lg:hidden absolute  right-20 " >
-            <img className="w-96 " src={logo} alt="" />
-          </div> */}
+          </div>  */}
+          <div className="overflow-hidden rounded-3xl lg:hidden absolute right-36">
+            <img className="w-96" src={logo} alt="" />
+          </div>
         </div>
       </div>
     </>
