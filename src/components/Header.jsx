@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 import "../styles.css";
 import { TypeAnimation } from "react-type-animation";
 
-const Cv = "https://drive.google.com/file/d/1TadQMxU7r4PUq2hzymh_F4Bu40lc5otU/view?usp=sharing";
+const Cv = "https://drive.google.com/file/d/16Oe7YfqN086dKuOF5y4fGEDOQarItZrw/view?usp=sharing";
 
 function Header() {
   return (
