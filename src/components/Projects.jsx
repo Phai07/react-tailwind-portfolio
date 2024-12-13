@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import { LuSquareArrowOutUpRight } from "react-icons/lu";
 
-import img1 from "../assets/images/project-img1.png";
-import img2 from "../assets/images/project-img2.png";
-import img3 from "../assets/images/project-img3.png";
+// import img1 from "../assets/images/project-img1.png";
+// import img2 from "../assets/images/project-img2.png";
+// import img3 from "../assets/images/project-img3.png";
+
 
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
 import { FaReact, FaGithub } from "react-icons/fa";
 
 function Projects() {
+  const img1 = "https://via.placeholder.com/300"
+  const img2 = "https://via.placeholder.com/300"
   const [durum, setDurum] = useState(1);
 
   const projects = [
@@ -18,13 +21,13 @@ function Projects() {
       title: "HTML",
       description: "Design & Development",
       img: img1,
-      link: "https://www.youtube.com/watch?v=Pfy3q6PbbRA" // เพิ่มลิงก์สำหรับโปรเจกต์นี้
+      
     }, {
       id: 2,
-      title: "HTMLjhkjhk",
+      title: "React",
       description: "Design & Development",
       img: img2,
-      link: "https://www.youtube.com/watch?v=Pfy3q6PbbRA" // เพิ่มลิงก์สำหรับโปรเจกต์นี้
+      
     }
 
   ];
