@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/123.png";
+import logo from "../assets/images/1674290858221.jpg";
 import logo1 from "../assets/images/astronout1.png";
 import bg from "../assets/images/bg.jpg";
 import Navbar from "./Navbar";

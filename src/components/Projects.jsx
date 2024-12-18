@@ -36,7 +36,7 @@ function Projects() {
   return (
 
     <div id="projects" className=" projects mt-32 p-8  text-white py-10">
-      <h1 className="text-4xl mb-10 text-center font-bold mb-12">Projects</h1>
+      <h1 className="text-4xl mb-10 text-center font-bold ">Projects</h1>
 
       <div className="grid grid-cols-1 gap-4 ">
         <div className="flex flex-col items-center "> 
