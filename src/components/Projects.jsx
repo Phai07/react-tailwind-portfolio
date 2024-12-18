@@ -45,7 +45,7 @@ function Projects() {
                 <a href="https://github.com/Gargantua-Saichania-JSD8/GenAIDV1" className="hover:text-yellow-200">
                   <FaGithub className="text-4xl" />
                 </a>
-                <a href="https://github.com/Phai07" className="hover:text-yellow-200">
+                <a href="https://gen-aidv-1-deploy-q37l.vercel.app/" className="hover:text-yellow-200">
                   <LuSquareArrowOutUpRight className="text-4xl" />
                 </a>
               </div>
