@@ -5,6 +5,10 @@ import checkMarkIcon  from '../../assets/images/checkmark-dark.svg'
 
 
 const Skills = () => {
+
+
+
+  
   return (
     <section id="skills" className={styles.container}>
     <h1 className="text-4xl font-mono font-bold mb-6">Skills</h1>

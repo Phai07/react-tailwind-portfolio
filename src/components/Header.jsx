@@ -7,7 +7,7 @@ import "../styles.css";
 import { TypeAnimation } from "react-type-animation";
 
 const Cv =
-  "https://drive.google.com/file/d/16Oe7YfqN086dKuOF5y4fGEDOQarItZrw/view?usp=sharing";
+  'https://drive.google.com/file/d/1cYqkNcTkb-khU8aZpejUcogNrsGJHVZP/view?usp=sharing';
 
 function Header() {
   return (
@@ -35,9 +35,9 @@ function Header() {
             </div>
             {/* <h1 className="text-white text-5xl font-bold">Hi! I'm Phai</h1> */}
             <h2 className="text-white py-4 max-w-lg text-justify text-lg">
-            It always seems impossible until it’s done.
+            'Software Developer | Skilled in Frontend & Backend Development | Passionate about Agile Workflows and Problem-Solving | Committed to Continuous Learning'
            </h2>
-           <p> — Nelson Mandela</p>
+           <p> </p>
             <a
               className="shadow-lg bg-[#171717] rounded-md text-white text-2xl hover:mix-blend-screen py-2 px-4 inline-block"
               href={Cv}
